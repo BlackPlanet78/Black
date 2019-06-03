@@ -20,9 +20,9 @@ while [[ $number -ne $files ]]
 do
 	if [[ $number -lt $files ]] 
 	then
-		echo "The number of files in the directory is higher than your guess $number."
+		echo "The number of files in the directory is higher than your guess: $number. Please retry."
 	else
-		echo "The number of files in the directory is lower than your guess $number."
+		echo "The number of files in the directory is lower than your guess: $number. Please retry."
 	fi
 	guess
 done
